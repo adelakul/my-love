@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love Letter</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+            color: white;
+            font-family: 'Georgia', serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+        }
+        .typed-text {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.6;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Love, Aderonke Ayoola Mih Victoria</h1>
+        <p class="typed-text"></p>
+    </div>
+
+    <script>
+        var options = {
+            strings: [
+                "From the moment you came into my life, everything changed.",
+                "I never thought I’d find someone like you—someone who understands me in ways I never knew I needed.",
+                "You calm the storms in my mind, yet still take my breath away every time I look at you.",
+                "Every time I catch your gaze, my heart races—I guess I’m still falling for you, over and over again.",
+                "You are more than I ever dreamed of, more than I ever thought I’d deserve.",
+                "After all the waiting, I now understand why it never worked with anyone else. It was always meant to be you.",
+                "I love every little thing about you, and if I could, I’d run away with you right now—because *us* is enough.",
+                "Let me be your home, through every high and low.",
+                "You are my person, my heart, my everything.",
+                "And I promise you this—no matter what comes our way, I will always choose you.",
+                "Forever and always, YOUR MAN."
+            ],
+            typeSpeed: 50,
+            backSpeed: 25,
+            showCursor: false,
+            loop: false
+        };
+        var typed = new Typed(".typed-text", options);
+    </script>
+</body>
+</html>
